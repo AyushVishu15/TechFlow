@@ -1,6 +1,6 @@
 # TechFlow - AI-Powered Development Platform Landing Page
 
-Build the future with AI. A modern, responsive landing page built with Angular 18 showcasing an intelligent development platform.
+Build the future with AI. A modern, responsive landing page built with Angular showcasing an intelligent development platform.
 
 ---
 
