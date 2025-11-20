@@ -2,8 +2,6 @@
 
 Build the future with AI. A modern, responsive landing page built with Angular 18 showcasing an intelligent development platform.
 
-**Live Demo:** [Deploy to Vercel](#deployment)
-
 ---
 
 ## 🚀 Introduction
