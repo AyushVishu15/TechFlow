@@ -62,7 +62,7 @@ TechFlow enables development teams to:
 
 | Technology | Purpose |
 |-----------|---------|
-| **Angular 18** | Frontend framework (Standalone Components) |
+| **Angular** | Frontend framework (Standalone Components) |
 | **TypeScript** | Type-safe JavaScript |
 | **CSS3** | Styling with Flexbox, Grid & Animations |
 | **HTML5** | Semantic markup |
