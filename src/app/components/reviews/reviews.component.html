@@ -1,0 +1,24 @@
+<section class="reviews" id="reviews">
+  <div class="reviews-container">
+    <div class="section-header">
+      <h2 class="section-title">Loved by Teams Worldwide</h2>
+      <p class="section-subtitle">See what our customers have to say about TechFlow</p>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card" *ngFor="let review of reviews">
+        <div class="review-stars">
+          <span *ngFor="let star of getRating(review.rating)" class="star">⭐</span>
+        </div>
+        <p class="review-text">{{ review.text }}</p>
+        <div class="review-author">
+          <div class="author-avatar">{{ review.avatar }}</div>
+          <div class="author-info">
+            <p class="author-name">{{ review.name }}</p>
+            <p class="author-role">{{ review.role }} at {{ review.company }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

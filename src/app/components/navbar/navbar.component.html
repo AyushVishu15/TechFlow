@@ -1,0 +1,28 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="logo">
+      <div class="logo-icon">TF</div>
+      <span class="logo-text">TechFlow</span>
+    </div>
+
+    <div class="nav-links-desktop">
+      <a href="#features" (click)="scrollToSection('features')" class="nav-link">Features</a>
+      <a href="#reviews" (click)="scrollToSection('reviews')" class="nav-link">Reviews</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <button class="btn-get-started" (click)="scrollToSection('hero')">Get Started</button>
+    </div>
+
+    <div class="mobile-menu-toggle" (click)="toggleMenu()">
+      <span [class.active]="isMenuOpen"></span>
+      <span [class.active]="isMenuOpen"></span>
+      <span [class.active]="isMenuOpen"></span>
+    </div>
+  </div>
+
+  <div class="nav-links-mobile" [class.open]="isMenuOpen">
+    <a href="#features" (click)="scrollToSection('features')" class="nav-link-mobile">Features</a>
+    <a href="#reviews" (click)="scrollToSection('reviews')" class="nav-link-mobile">Reviews</a>
+    <a href="#pricing" class="nav-link-mobile">Pricing</a>
+    <button class="btn-get-started-mobile" (click)="closeMenu()">Get Started</button>
+  </div>
+</nav>

@@ -1,0 +1,9 @@
+import { ApplicationConfig, importProvidersFrom } from '@angular/core';
+import { provideAnimations } from '@angular/platform-browser/animations';
+
+export const appConfig: ApplicationConfig = {
+  providers: [
+    provideAnimations(),
+    // Add more providers as needed
+  ],
+};
